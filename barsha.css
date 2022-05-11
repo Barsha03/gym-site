@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{ 
+    background: url("background.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 22px;
+    overflow: hidden;
+}
+.header{
+  height: 100vh;
+}
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+
+}
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  text-transform: capitalize;
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+  padding: 8px;
+}
+li a:hover{
+  background-color: #a9b7b3;
+  color: #060f22;
+  border-radius: 10px;
+  /* padding: 3px;
+  margin: 3px; */
+  transition: all 2s ease;
+}
+.logo{
+  position: relative;
+  right: 13px;
+  
+}
+.logo img{
+  height: 45px;
+  filter: invert(100%);
+  width: 100px;
+  margin-top: 20px;
+}
+.logo p{
+  position: relative;
+  right: 13px;
+  bottom: 10px;
+  font-size: 20px;
+
+}
+.button button{
+  font-size: 18px;
+  text-transform: capitalize;
+  position: relative;
+  left: 3px;
+  margin: 3px;
+  padding: 3px;
+  color: white;
+  background-color: black;
+  border-radius: 10px ;
+  border: 2px solid gray;
+  cursor: pointer;
+
+}
+.button button:hover{
+  background: #c8c8dd;
+color: #020811;
+transition: all 2s ease;
+
+}
+.container{
+  width: 40%;
+  border: 2px solid black;
+  position: absolute;
+  top: 180px;
+  height: 310px;
+  left: 75px;
+  border-radius: 20px;
+}
+.container h1{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.form-grp input{
+  text-align: center;
+  border: 2px solid black;
+  display: block;
+  width: 400px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  padding: 5px;
+  margin: 15px auto;
+}
+.btn{
+  width: 400px;
+  margin: 15px auto;
+  padding: 5px;
+  display: block;
+  border-radius: 10px;
+}
